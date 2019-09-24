@@ -2,14 +2,14 @@ package io.zipcoder.interfaces;
 
 public class Person {
 
-    private final Long id;
+    private final long id;
     private String name;
 
-    public Person(Long id) {
+    public Person(long id) {
         this.id = id;
     }
 
-    public Long getId() {
+    public long getId() {
         return id;
     }
 

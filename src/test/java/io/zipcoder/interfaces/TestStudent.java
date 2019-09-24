@@ -10,7 +10,7 @@ public class TestStudent {
     @Test
     public void testImplementation() {
         //Given
-        Student skywalker = new Student(1L);
+        Student skywalker = new Student(1);
         //Then
         Assert.assertTrue(skywalker instanceof Learner);
 
@@ -19,7 +19,7 @@ public class TestStudent {
     @Test
     public void testInheritance() {
         //Given
-        Student skywalker = new Student(1L);
+        Student skywalker = new Student(1);
         //Then
         Assert.assertTrue(skywalker instanceof Person);
 
@@ -27,7 +27,7 @@ public class TestStudent {
     @Test
     public void testLearn() {
         //Given
-        Student skywalker = new Student(1L);
+        Student skywalker = new Student(1);
         Double expected = 25.0;
         //When
         skywalker.learn(expected);

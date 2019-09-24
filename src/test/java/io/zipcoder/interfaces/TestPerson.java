@@ -8,9 +8,9 @@ public class TestPerson {
     @Test
     public void testConstructor() {
         //Given
-        Person skywalker = new Person(1L);
+        Person skywalker = new Person(1);
         //When
-        long expected = 1L;
+        long expected = 1;
         long actual = skywalker.getId();
         //Then
         Assert.assertEquals(expected, actual);
@@ -20,7 +20,7 @@ public class TestPerson {
     public void testSetName() {
         //Given
         String expected = "Skywalker";
-        Person testPerson = new Person(1L);
+        Person testPerson = new Person(1);
         //When
         testPerson.setName(expected);
         //Then
